@@ -1,0 +1,43 @@
+.square {
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+
+#grid {
+  margin: auto;
+  border-style: double;
+  border-color: #FC4A1A;
+}
+
+#buttons {
+  text-align: center;
+  margin: 20px auto;
+}
+
+button {
+  background-color: #543D95;
+  color: white;
+  font-family: Adelle;
+  font-weight: 800;
+  padding: 16px 32px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  border: 2px solid #FC4A1A;
+}
+
+button:hover {
+  background-color: #FC4A1A;
+  color: white;
+  border: 2px solid #543D95;
+}
+
+h1,h3 {
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-color: #4ABDAC;
+}
